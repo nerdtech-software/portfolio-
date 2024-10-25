@@ -1,0 +1,13 @@
+@keyframes horizontal-marquee {
+  0% {
+    transform: translateX(40%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-horizontal-marquee {
+  display: flex;
+  animation: horizontal-marquee 15s linear infinite;
+}
