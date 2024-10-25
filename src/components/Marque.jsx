@@ -5,12 +5,12 @@ import "./Marquee.css";
 const Marque = () => {
   return (
     <div id="reviews">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
-        <h2 class="font-medium tracking-tight text-neutral-900 dark:text-white sm:text-center text-2xl md:text-3xl mt-20 md:mt-40"
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
+        <h2 className="font-medium tracking-tight text-neutral-900 dark:text-white sm:text-center text-2xl md:text-3xl mt-20 md:mt-40"
         >
           Trusted by learners around the world
         </h2>
-        <p class="mt-2 text-lg text-neutral-600 dark:text-neutral-200 sm:text-center">
+        <p className="mt-2 text-lg text-neutral-600 dark:text-neutral-200 sm:text-center">
           Empowering global learners with top-quality education.
         </p>
         <div className="relative w-full h-48 overflow-hidden flex items-center">
@@ -21,7 +21,7 @@ const Marque = () => {
                   className="rounded-full"
                   width="32"
                   height="32"
-                  alt="Profile picture of Alice"
+                  alt="Profile"
                   src="https://avatar.vercel.sh/alice"
                 />
                 <div className="flex flex-col">
@@ -41,7 +41,7 @@ const Marque = () => {
                   className="rounded-full"
                   width="32"
                   height="32"
-                  alt="Profile picture of Bob"
+                  alt="Profile"
                   src="https://avatar.vercel.sh/bob"
                 />
                 <div className="flex flex-col">
@@ -61,7 +61,7 @@ const Marque = () => {
                   className="rounded-full"
                   width="32"
                   height="32"
-                  alt="Profile picture of Charlie"
+                  alt="Profile "
                   src="https://avatar.vercel.sh/charlie"
                 />
                 <div className="flex flex-col">
@@ -81,7 +81,7 @@ const Marque = () => {
                   className="rounded-full"
                   width="32"
                   height="32"
-                  alt="Profile picture of Charlie"
+                  alt="Profile"
                   src="https://avatar.vercel.sh/charlie"
                 />
                 <div className="flex flex-col">
@@ -101,7 +101,7 @@ const Marque = () => {
                   className="rounded-full"
                   width="32"
                   height="32"
-                  alt="Profile picture of Charlie"
+                  alt="Profile"
                   src="https://avatar.vercel.sh/charlie"
                 />
                 <div className="flex flex-col">
@@ -121,7 +121,7 @@ const Marque = () => {
                   className="rounded-full"
                   width="32"
                   height="32"
-                  alt="Profile picture of Charlie"
+                  alt="Profile"
                   src="https://avatar.vercel.sh/charlie"
                 />
                 <div className="flex flex-col">
@@ -141,7 +141,7 @@ const Marque = () => {
                   className="rounded-full"
                   width="32"
                   height="32"
-                  alt="Profile picture of Charlie"
+                  alt="Profile"
                   src="https://avatar.vercel.sh/charlie"
                 />
                 <div className="flex flex-col">
@@ -161,7 +161,7 @@ const Marque = () => {
                   className="rounded-full"
                   width="32"
                   height="32"
-                  alt="Profile picture of Charlie"
+                  alt="Profile"
                   src="https://avatar.vercel.sh/charlie"
                 />
                 <div className="flex flex-col">
@@ -181,7 +181,7 @@ const Marque = () => {
                   className="rounded-full"
                   width="32"
                   height="32"
-                  alt="Profile picture of Charlie"
+                  alt="Profile"
                   src="https://avatar.vercel.sh/charlie"
                 />
                 <div className="flex flex-col">
@@ -201,7 +201,7 @@ const Marque = () => {
                   className="rounded-full"
                   width="32"
                   height="32"
-                  alt="Profile picture of Charlie"
+                  alt="Profile"
                   src="https://avatar.vercel.sh/charlie"
                 />
                 <div className="flex flex-col">
@@ -222,7 +222,7 @@ const Marque = () => {
                   className="rounded-full"
                   width="32"
                   height="32"
-                  alt="Profile picture of David"
+                  alt="Profile"
                   src="https://avatar.vercel.sh/david"
                 />
                 <div className="flex flex-col">
