@@ -30,7 +30,7 @@ const About = () => {
                 decoding="async"
                 data-nimg="1"
                 className="rounded-2xl"
-                srcset="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
+                srcSet="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
                 src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
                 style={{color: "transparent"}}
               />
@@ -44,7 +44,7 @@ const About = () => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 1024 1024"
                       className="h-5 w-5 hover:text-primary transition duration-150"
                       height="1em"
@@ -64,7 +64,7 @@ const About = () => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 1024 1024"
                       className="h-5 w-5 hover:text-primary transition duration-150"
                       height="1em"
@@ -84,7 +84,7 @@ const About = () => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 1024 1024"
                       className="h-5 w-5 hover:text-primary transition duration-150"
                       height="1em"
@@ -104,7 +104,7 @@ const About = () => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 1024 1024"
                       className="h-5 w-5 hover:text-primary transition duration-150"
                       height="1em"
@@ -167,7 +167,7 @@ const About = () => {
                   decoding="async"
                   data-nimg="1"
                   className="transition duration-500  blur-0 scale-100 rounded-full"
-                  srcset="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
+                  srcSet="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
                   src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
                   style={{color: "transparent"}}
                 />
@@ -207,7 +207,7 @@ const About = () => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 1024 1024"
                       className="h-5 w-5 hover:text-primary transition duration-150"
                       height="1em"
@@ -227,7 +227,7 @@ const About = () => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 1024 1024"
                       className="h-5 w-5 hover:text-primary transition duration-150"
                       height="1em"
@@ -247,7 +247,7 @@ const About = () => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 1024 1024"
                       className="h-5 w-5 hover:text-primary transition duration-150"
                       height="1em"
@@ -267,7 +267,7 @@ const About = () => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 1024 1024"
                       className="h-5 w-5 hover:text-primary transition duration-150"
                       height="1em"

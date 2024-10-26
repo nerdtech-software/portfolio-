@@ -43,7 +43,7 @@ function YoutubeVideo() {
         className="relative md:p-8"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.youtube.com/"
+        href="https://www.youtube.com"
       >
         <div className="md:flex gap-4">
           <div>
@@ -72,7 +72,7 @@ function YoutubeVideo() {
 
       <a
         className="relative md:p-8"
-        target="_blank"
+        
         href="https://www.youtube.com/"
       >
         <div className="md:flex gap-4">
@@ -103,7 +103,8 @@ function YoutubeVideo() {
       <a
         className="relative md:p-8"
         target="_blank"
-        href="https://www.youtube.com/"
+        href="https://www.youtube.com/watch?v=wBqDrY-eOk8"
+        rel="noopener noreferrer"
       >
         <div className="md:flex gap-4">
           <div>
@@ -134,7 +135,7 @@ function YoutubeVideo() {
 
     <div>
       <h2 className="font-bold text-zinc-50 mb-2">Gears</h2>
-      <a className="group" href="https://amzn.to/46YWMUE" target="_blank">
+      <a className="group" href="https://amzn.to/46YWMUE" target="_blank"    rel="noopener noreferrer" >
         <div className="my-8">
           <h4 className="text-base font-bold text-zinc-100 group-hover:text-blue-400">
             14 Inch M3 Max MacBook Pro
@@ -145,34 +146,34 @@ function YoutubeVideo() {
           </p>
           </div>
         </a>
-        <a class="group" href="https://amzn.to/46ZcPSa" target="_blank">
-          <div class="my-8">
-            <h4 class="text-base font-bold text-zinc-100 group-hover:text-blue-400">
+        <a className="group" href="https://amzn.to/46ZcPSa" target="_blank"    rel="noopener noreferrer" >
+          <div className="my-8">
+            <h4 className="text-base font-bold text-zinc-100 group-hover:text-blue-400">
               Logitech MX Mechanical
             </h4>
-            <p class="text-sm text-zinc-400 leading-loose">
+            <p className="text-sm text-zinc-400 leading-loose">
               My main keyboard for development. I love the clicky keys and the
               compact size. I use it with a Logitech MX Master 3 mouse.
             </p>
           </div>
         </a>
-        <a class="group" href="https://amzn.to/3AEycfL" target="_blank">
-          <div class="my-8">
-            <h4 class="text-base font-bold text-zinc-100 group-hover:text-blue-400">
+        <a className="group" href="https://amzn.to/3AEycfL" target="_blank"    rel="noopener noreferrer">
+          <div className="my-8">
+            <h4 className="text-base font-bold text-zinc-100 group-hover:text-blue-400">
               Logitech MX Master 3S
             </h4>
-            <p class="text-sm text-zinc-400 leading-loose">
+            <p className="text-sm text-zinc-400 leading-loose">
               My main mouse for development. I love the scroll wheel and the
               thumb buttons. I use it with a Logitech MX Mechanical
             </p>
           </div>
         </a>
-        <a class="group" href="https://amzn.to/4dCmqkD" target="_blank">
-          <div class="my-8">
-            <h4 class="text-base font-bold text-zinc-100 group-hover:text-blue-400">
+        <a className="group" href="https://amzn.to/4dCmqkD" target="_blank"    rel="noopener noreferrer">
+          <div className="my-8">
+            <h4 className="text-base font-bold text-zinc-100 group-hover:text-blue-400">
               BenQ 4K Monitor
             </h4>
-            <p class="text-sm text-zinc-400 leading-loose">
+            <p className="text-sm text-zinc-400 leading-loose">
               Main monitor I use for coding. I love the display and 4K is really
               good to have.
             </p>

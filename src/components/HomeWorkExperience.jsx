@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const HomeWorkExperience = () => {
   const [activeCompany, setActiveCompany] = useState("Teachyst");
 
-  // Dynamic scrollspy logic
+  // Dynamic scrollspy logic  
   useEffect(() => {
     const handleScroll = () => {
       const sections = document.querySelectorAll(".company-section");
@@ -59,7 +59,7 @@ const HomeWorkExperience = () => {
               <div className="p-1 h-6 w-6 flex items-center justify-center rounded-full bg-gradient-to-br from-zinc-700 to-zinc-800">
                 <img
                   alt="Teachyst"
-                  src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
+                  src="/_next/image?url=%2Fimages%2Flogos%2Fteachyst.webp&amp;w=32&amp;q=75"
                   className="flex-shrink-0"
                 />
               </div>
@@ -80,7 +80,7 @@ const HomeWorkExperience = () => {
               <div className="p-1 h-6 w-6 flex items-center justify-center rounded-full bg-gradient-to-br from-zinc-700 to-zinc-800">
                 <img
                   alt="Dimension"
-                  src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
+                  src="/_next/image?url=%2Fimages%2Flogos%2Fdimension.png&amp;w=32&amp;q=75"
                   className="flex-shrink-0"
                 />
               </div>
@@ -101,7 +101,7 @@ const HomeWorkExperience = () => {
               <div className="p-1 h-6 w-6 flex items-center justify-center rounded-full bg-gradient-to-br from-zinc-700 to-zinc-800">
                 <img
                   alt="Emitrr"
-                  src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
+                  src="/_next/image?url=%2Fimages%2Flogos%2Femitrr.jpeg&amp;w=32&amp;q=75"
                   className="flex-shrink-0"
                 />
               </div>
@@ -122,7 +122,7 @@ const HomeWorkExperience = () => {
               <div className="p-1 h-6 w-6 flex items-center justify-center rounded-full bg-gradient-to-br from-zinc-700 to-zinc-800">
                 <img
                   alt="Trryst"
-                  src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
+                  src="/_next/image?url=%2Fimages%2Flogos%2Ftrryst.png&amp;w=32&amp;q=75"
                   className="flex-shrink-0"
                 />
               </div>

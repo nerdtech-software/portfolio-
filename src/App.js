@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div>
-      <RouterProvider route={appRouter} />
+      <RouterProvider router={appRouter} />
     </div>
   );
 }

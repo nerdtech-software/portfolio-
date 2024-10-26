@@ -39,16 +39,12 @@ const HomeNav = () => {
                 <span className="relative z-10 px-2 py-2 inline-block ">Contact</span>
               </Link>
               
-              <a
-                target="__blank"
-                rel="noopener noreferrer"
-                href="service"
-                className="text-white text-sm relative"
-              >
+             <Link>
                 <span className="relative z-10 px-2 py-2 inline-block">
                   Service
                 </span>
-              </a>
+                </Link>
+              
             </div>
           </div>
 
