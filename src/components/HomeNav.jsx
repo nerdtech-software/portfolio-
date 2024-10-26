@@ -39,7 +39,7 @@ const HomeNav = () => {
                 <span className="relative z-10 px-2 py-2 inline-block ">Contact</span>
               </Link>
               
-             <Link>
+             <Link to="/service" className="text-white text-sm relative">
                 <span className="relative z-10 px-2 py-2 inline-block">
                   Service
                 </span>
