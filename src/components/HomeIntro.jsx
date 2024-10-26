@@ -59,7 +59,7 @@ const HomeIntro = () => {
 
         <div className="flex flex-row justify-start md:justify-center space-x-2 mt-2">
           <a
-            href="some link"
+            href="https://nerdtech.in/"
             className="text-zinc-500 text-sm relative"
             target="__blank"
           >
@@ -79,7 +79,7 @@ const HomeIntro = () => {
             </span>
           </a>
           <a
-            href="https://x.com/piyushgarg_dev"
+            href="https://nerdtech.in/"
             className="text-zinc-500 text-sm relative"
             target="__blank"
           >
@@ -99,7 +99,7 @@ const HomeIntro = () => {
             </span>
           </a>
           <a
-            href="https://www.linkedin.com/in/piyushgarg195/"
+            href="https://nerdtech.in/"
             className="text-zinc-500 text-sm relative"
             target="__blank"
           >
@@ -119,7 +119,7 @@ const HomeIntro = () => {
             </span>
           </a>
           <a
-            href="https://github.com/piyushgarg-dev"
+            href="https://nerdtech.in/"
             className="text-zinc-500 text-sm relative"
             target="__blank"
           >

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const HomeNav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,40 +11,61 @@ const HomeNav = () => {
   return (
     <div>
       <main className="bg-black">
-        
         <div className="flex flex-row items-center justify-between sm:justify-between py-8 max-w-5xl mx-auto relative z-[100] px-8">
           {/* Desktop view */}
           <div className="hidden lg:flex w-full justify-between">
             <div className="flex flex-row space-x-8 items-center antialiased border px-4 py-2 rounded-2xl border-zinc-700/60 bg-zinc-800">
-              <Link to="/" className="font-bold text-sm flex items-center justify-center text-white space-x-2">
-                <img
-                  alt="Avatar"
-                  loading="lazy"
-                  width="30"
-                  height="30"
-                  decoding="async"
-                  className="transition duration-500 blur-0 scale-100 rounded-full"
-                  srcSet="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
-                  src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
-                  style={{ color: "transparent" }}
-                />
-                <span className="font-inter font-bold">Home</span>
+            <Link
+  to="/"
+  className="font-bold  flex items-center justify-center space-x-2 relative text-white text-sm  group"
+>
+  <img
+    alt="Avatar"
+    loading="lazy"
+    width="30"
+    height="30"
+    decoding="async"
+    className="transition duration-500 blur-0 scale-100 rounded-full"
+    srcSet="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
+    src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
+    style={{ color: "transparent" }}
+  />
+  <span className="relative group">
+    <span className="font-inter font-bold relative z-10 px-2 py-2 inline-block">Home</span>
+    <span className="absolute bottom-0 left-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+  </span>
+</Link>
+
+
+              <Link
+                to="/about"
+                 className="text-white text-sm font-bold relative group"
+              >
+                <span className="relative z-10 px-2 py-2 inline-block">
+                  About
+                </span>
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
               </Link>
-              
-              <Link to="/about" className="text-white text-sm relative">
-                <span className="relative z-10 px-2 py-2 inline-block">About</span>
+
+              <Link
+                to="/contact"
+              className="text-white text-sm font-bold relative group"
+              >
+                <span className="relative z-10 px-2 py-2 inline-block">
+                  Contact
+                </span>
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
               </Link>
-              
-              <Link to="/contact" className="text-white text-sm relative">
-                <span className="relative z-10 px-2 py-2 inline-block ">Contact</span>
-              </Link>
-              
-             <Link to="/service" className="text-white text-sm relative">
+
+              <Link
+                to="/service"
+                className="text-white text-sm font-bold relative group"
+              >
                 <span className="relative z-10 px-2 py-2 inline-block">
                   Service
                 </span>
-                </Link>
-              
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+              </Link>
             </div>
           </div>
 
@@ -64,7 +85,7 @@ const HomeNav = () => {
               />
               <span className="font-bold text-white">Home</span>
             </div>
-            
+
             <button
               onClick={toggleMenu}
               className="text-white focus:outline-none"
@@ -119,7 +140,6 @@ const HomeNav = () => {
             <Link to="/service" className="block text-white text-sm mb-2">
               Service
             </Link>
-           
           </div>
         )}
       </main>

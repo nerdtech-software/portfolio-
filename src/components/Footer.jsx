@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-row justify-center space-x-2 mt-2">
             <a
-              href="https://www.youtube.com/@piyushgargdev"
+              href="https://nerdtech.in/"
               className="text-zinc-500 text-sm relative"
               target="__blank"
             >
@@ -54,7 +54,7 @@ const Footer = () => {
               </span>
             </a>
             <a
-              href="https://x.com/piyushgarg_dev"
+              href="https://nerdtech.in/"
               className="text-zinc-500 text-sm relative"
               target="__blank"
             >
@@ -63,7 +63,7 @@ const Footer = () => {
               </span>
             </a>
             <a
-              href="https://www.linkedin.com/in/piyushgarg195/"
+              href="https://nerdtech.in/"
               className="text-zinc-500 text-sm relative"
               target="__blank"
             >
@@ -72,7 +72,7 @@ const Footer = () => {
               </span>
             </a>
             <a
-              href="https://github.com/piyushgarg-dev"
+              href="https://nerdtech.in/"
               className="text-zinc-500 text-sm relative"
               target="__blank"
             >
